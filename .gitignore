@@ -1,0 +1,16 @@
+# Node modules
+node_modules
+.pnp
+.pnp.js
+# NextJS build files
+.next/
+out/
+build
+dist/
+# MISC files
+.DS_Store
+*.pem
+# Environment files
+.env.local
+# IDE files
+.vscode/settings.json
