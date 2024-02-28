@@ -393,4 +393,8 @@ export const countryFlags: {
     emoji: '🇬🇼',
     icon: <flags.GuineaBissauFlag className={className} />,
   },
+  GY: {
+    emoji: '🇬🇾',
+    icon: <flags.GuyanaFlag className={className} />,
+  },
 };

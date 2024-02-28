@@ -30,6 +30,13 @@ export default function CountrySelector({
   const ref = React.useRef(null);
   useCloseOnClick(ref, () => setShowCountryList(false));
 
+  React.useEffect(() => {
+    if (showCountryList) {
+      const input = document.getElementById('phone-input-country-search');
+      input?.focus();
+    }
+  }, [showCountryList]);
+
   return (
     <div ref={ref} className="relative">
       <button

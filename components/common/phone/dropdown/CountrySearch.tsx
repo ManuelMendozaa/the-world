@@ -14,6 +14,8 @@ export default function CountrySearch({
     <div className="flex gap-2 items-center border-b px-2 pb-2 mb-1 border-neutral-100">
       <SearchIcon className="h-4" />
       <input
+        id="phone-input-country-search"
+        name="phone-input-country-search"
         type="text"
         className="w-full outline-none focus-within:ring-0 bg-transparent text-sm"
         placeholder="Search country"
