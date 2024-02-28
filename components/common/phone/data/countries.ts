@@ -172,6 +172,10 @@ export const isoCountries: { [key: string]: { en: string; es: string } } = {
     en: 'Canada',
     es: 'Canadá',
   },
+  IC: {
+    en: 'Canary Islands',
+    es: 'Islas Canarias',
+  },
   CV: {
     en: 'Cape Verde',
     es: 'Cabo Verde',
@@ -183,6 +187,10 @@ export const isoCountries: { [key: string]: { en: string; es: string } } = {
   CF: {
     en: 'Central African Republic',
     es: 'República Centroafricana',
+  },
+  EA: {
+    en: 'Ceuta and Melilla',
+    es: 'Ceuta y Melilla',
   },
   TD: {
     en: 'Chad',
